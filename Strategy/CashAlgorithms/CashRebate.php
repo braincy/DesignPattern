@@ -1,6 +1,6 @@
 <?php
 
-class CashRebate extends CashSuper {
+class CashRebate extends CashAbstract {
 
     private $moneyRebate = 1;
 

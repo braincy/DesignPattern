@@ -1,6 +1,6 @@
 <?php
 
-class CashReturn extends CashSuper {
+class CashReturn extends CashAbstract {
 
     private $moneyCondition = 0;
     private $moneyReturn = 0;

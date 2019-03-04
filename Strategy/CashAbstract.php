@@ -1,9 +1,9 @@
 <?php
 
-abstract class CashSuper {
+abstract class CashAbstract {
 
     /**
-     * 现金收取超类的抽象方法
+     * 现金收取抽象类的抽象方法
      * @param $money float 原价
      * @return mixed 当前价格
      */

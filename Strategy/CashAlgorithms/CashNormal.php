@@ -1,6 +1,6 @@
 <?php
 
-class CashNormal extends CashSuper {
+class CashNormal extends CashAbstract {
 
     public function acceptCash($money) {
         return $money;
